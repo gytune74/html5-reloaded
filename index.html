@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-ng-app="reloaded">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="build/css/html5-reloaded.min.css">
@@ -7,6 +7,9 @@
 </head>
 <body>
 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>Alma
+<div class="container" data-ng-controller="hello">
+    <h1>Hello <span data-ng-bind="name"></span></h1>
+</div>
 
 <script src="build/js/html5-reloaded.min.js"></script>
 </body>
